@@ -1,0 +1,216 @@
+
+--- Exploring: /home/ecs-user/working-labs/H1transferG1/assets/g1_minimal.usd ---
+Prim: /physicsScene  Type: PhysicsScene
+Prim: /g1  Type: Xform
+Prim: /g1/pelvis  Type: Xform
+Prim: /g1/pelvis/visuals  Type: 
+Prim: /g1/pelvis/left_hip_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/pelvis/pelvis_contour_joint  Type: PhysicsFixedJoint
+Prim: /g1/pelvis/right_hip_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/pelvis/torso_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_hip_pitch_link  Type: Xform
+Prim: /g1/left_hip_pitch_link/visuals  Type: 
+Prim: /g1/left_hip_pitch_link/left_hip_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_hip_roll_link  Type: Xform
+Prim: /g1/left_hip_roll_link/visuals  Type: 
+Prim: /g1/left_hip_roll_link/left_hip_yaw_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_hip_yaw_link  Type: Xform
+Prim: /g1/left_hip_yaw_link/visuals  Type: 
+Prim: /g1/left_hip_yaw_link/left_knee_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_knee_link  Type: Xform
+Prim: /g1/left_knee_link/visuals  Type: 
+Prim: /g1/left_knee_link/left_ankle_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_ankle_pitch_link  Type: Xform
+Prim: /g1/left_ankle_pitch_link/visuals  Type: 
+Prim: /g1/left_ankle_pitch_link/left_ankle_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_ankle_roll_link  Type: Xform
+Prim: /g1/left_ankle_roll_link/visuals  Type: 
+Prim: /g1/left_ankle_roll_link/Cube  Type: Mesh
+  Mesh with 8 points
+Prim: /g1/pelvis_contour_link  Type: Xform
+Prim: /g1/pelvis_contour_link/visuals  Type: 
+Prim: /g1/right_hip_pitch_link  Type: Xform
+Prim: /g1/right_hip_pitch_link/visuals  Type: 
+Prim: /g1/right_hip_pitch_link/right_hip_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_hip_roll_link  Type: Xform
+Prim: /g1/right_hip_roll_link/visuals  Type: 
+Prim: /g1/right_hip_roll_link/right_hip_yaw_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_hip_yaw_link  Type: Xform
+Prim: /g1/right_hip_yaw_link/visuals  Type: 
+Prim: /g1/right_hip_yaw_link/right_knee_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_knee_link  Type: Xform
+Prim: /g1/right_knee_link/visuals  Type: 
+Prim: /g1/right_knee_link/right_ankle_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_ankle_pitch_link  Type: Xform
+Prim: /g1/right_ankle_pitch_link/visuals  Type: 
+Prim: /g1/right_ankle_pitch_link/right_ankle_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_ankle_roll_link  Type: Xform
+Prim: /g1/right_ankle_roll_link/visuals  Type: 
+Prim: /g1/right_ankle_roll_link/Cube  Type: Mesh
+  Mesh with 8 points
+Prim: /g1/torso_link  Type: Xform
+Prim: /g1/torso_link/visuals  Type: 
+Prim: /g1/torso_link/head_joint  Type: PhysicsFixedJoint
+Prim: /g1/torso_link/imu_joint  Type: PhysicsFixedJoint
+Prim: /g1/torso_link/left_shoulder_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/torso_link/logo_joint  Type: PhysicsFixedJoint
+Prim: /g1/torso_link/right_shoulder_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/torso_link/Cube  Type: Mesh
+  Mesh with 8 points
+Prim: /g1/head_link  Type: Xform
+Prim: /g1/head_link/visuals  Type: 
+Prim: /g1/imu_link  Type: Xform
+Prim: /g1/left_shoulder_pitch_link  Type: Xform
+Prim: /g1/left_shoulder_pitch_link/visuals  Type: 
+Prim: /g1/left_shoulder_pitch_link/left_shoulder_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_shoulder_roll_link  Type: Xform
+Prim: /g1/left_shoulder_roll_link/visuals  Type: 
+Prim: /g1/left_shoulder_roll_link/left_shoulder_yaw_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_shoulder_yaw_link  Type: Xform
+Prim: /g1/left_shoulder_yaw_link/visuals  Type: 
+Prim: /g1/left_shoulder_yaw_link/left_elbow_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_elbow_pitch_link  Type: Xform
+Prim: /g1/left_elbow_pitch_link/visuals  Type: 
+Prim: /g1/left_elbow_pitch_link/left_elbow_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_elbow_roll_link  Type: Xform
+Prim: /g1/left_elbow_roll_link/visuals  Type: 
+Prim: /g1/left_elbow_roll_link/left_palm_joint  Type: PhysicsFixedJoint
+Prim: /g1/left_palm_link  Type: Xform
+Prim: /g1/left_palm_link/visuals  Type: 
+Prim: /g1/left_palm_link/left_five_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_palm_link/left_three_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_palm_link/left_zero_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_five_link  Type: Xform
+Prim: /g1/left_five_link/visuals  Type: 
+Prim: /g1/left_five_link/left_six_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_six_link  Type: Xform
+Prim: /g1/left_six_link/visuals  Type: 
+Prim: /g1/left_three_link  Type: Xform
+Prim: /g1/left_three_link/visuals  Type: 
+Prim: /g1/left_three_link/left_four_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_four_link  Type: Xform
+Prim: /g1/left_four_link/visuals  Type: 
+Prim: /g1/left_zero_link  Type: Xform
+Prim: /g1/left_zero_link/visuals  Type: 
+Prim: /g1/left_zero_link/left_one_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_one_link  Type: Xform
+Prim: /g1/left_one_link/visuals  Type: 
+Prim: /g1/left_one_link/left_two_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/left_two_link  Type: Xform
+Prim: /g1/left_two_link/visuals  Type: 
+Prim: /g1/logo_link  Type: Xform
+Prim: /g1/logo_link/visuals  Type: 
+Prim: /g1/right_shoulder_pitch_link  Type: Xform
+Prim: /g1/right_shoulder_pitch_link/visuals  Type: 
+Prim: /g1/right_shoulder_pitch_link/right_shoulder_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_shoulder_roll_link  Type: Xform
+Prim: /g1/right_shoulder_roll_link/visuals  Type: 
+Prim: /g1/right_shoulder_roll_link/right_shoulder_yaw_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_shoulder_yaw_link  Type: Xform
+Prim: /g1/right_shoulder_yaw_link/visuals  Type: 
+Prim: /g1/right_shoulder_yaw_link/right_elbow_pitch_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_elbow_pitch_link  Type: Xform
+Prim: /g1/right_elbow_pitch_link/visuals  Type: 
+Prim: /g1/right_elbow_pitch_link/right_elbow_roll_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_elbow_roll_link  Type: Xform
+Prim: /g1/right_elbow_roll_link/visuals  Type: 
+Prim: /g1/right_elbow_roll_link/right_palm_joint  Type: PhysicsFixedJoint
+Prim: /g1/right_palm_link  Type: Xform
+Prim: /g1/right_palm_link/visuals  Type: 
+Prim: /g1/right_palm_link/right_five_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_palm_link/right_three_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_palm_link/right_zero_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_five_link  Type: Xform
+Prim: /g1/right_five_link/visuals  Type: 
+Prim: /g1/right_five_link/right_six_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_six_link  Type: Xform
+Prim: /g1/right_six_link/visuals  Type: 
+Prim: /g1/right_three_link  Type: Xform
+Prim: /g1/right_three_link/visuals  Type: 
+Prim: /g1/right_three_link/right_four_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_four_link  Type: Xform
+Prim: /g1/right_four_link/visuals  Type: 
+Prim: /g1/right_zero_link  Type: Xform
+Prim: /g1/right_zero_link/visuals  Type: 
+Prim: /g1/right_zero_link/right_one_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_one_link  Type: Xform
+Prim: /g1/right_one_link/visuals  Type: 
+Prim: /g1/right_one_link/right_two_joint  Type: PhysicsRevoluteJoint
+Prim: /g1/right_two_link  Type: Xform
+Prim: /g1/right_two_link/visuals  Type: 
+
+--- Exploring: /home/ecs-user/working-labs/H1transferG1/assets/h1_minimal.usd ---
+Prim: /physicsScene  Type: PhysicsScene
+Prim: /h1  Type: Xform
+Prim: /h1/left_hip_yaw_link  Type: Xform
+Prim: /h1/left_hip_yaw_link/visuals  Type: 
+Prim: /h1/joints  Type: 
+Prim: /h1/joints/left_hip_yaw  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_hip_roll  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_hip_pitch  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_knee  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_ankle  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_hip_yaw  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_hip_roll  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_hip_pitch  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_knee  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_ankle  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/torso  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_shoulder_pitch  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_shoulder_roll  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_shoulder_yaw  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/left_elbow  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_shoulder_pitch  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_shoulder_roll  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_shoulder_yaw  Type: PhysicsRevoluteJoint
+Prim: /h1/joints/right_elbow  Type: PhysicsRevoluteJoint
+Prim: /h1/left_hip_roll_link  Type: Xform
+Prim: /h1/left_hip_roll_link/visuals  Type: 
+Prim: /h1/left_hip_pitch_link  Type: Xform
+Prim: /h1/left_hip_pitch_link/visuals  Type: 
+Prim: /h1/left_ankle_link  Type: Xform
+Prim: /h1/left_ankle_link/visuals  Type: 
+Prim: /h1/left_ankle_link/collisions  Type: 
+Prim: /h1/right_hip_yaw_link  Type: Xform
+Prim: /h1/right_hip_yaw_link/visuals  Type: 
+Prim: /h1/right_hip_roll_link  Type: Xform
+Prim: /h1/right_hip_roll_link/visuals  Type: 
+Prim: /h1/right_hip_pitch_link  Type: Xform
+Prim: /h1/right_hip_pitch_link/visuals  Type: 
+Prim: /h1/right_knee_link  Type: Xform
+Prim: /h1/right_knee_link/visuals  Type: 
+Prim: /h1/right_ankle_link  Type: Xform
+Prim: /h1/right_ankle_link/collisions  Type: 
+Prim: /h1/right_ankle_link/visuals  Type: 
+Prim: /h1/torso_link  Type: Xform
+Prim: /h1/torso_link/collisions  Type: 
+Prim: /h1/torso_link/visuals  Type: 
+Prim: /h1/torso_link/sites  Type: 
+Prim: /h1/torso_link/sites/imu  Type: Sphere
+Prim: /h1/torso_link/sites/Looks  Type: Scope
+Prim: /h1/torso_link/sites/Looks/material_rgba  Type: Material
+Prim: /h1/torso_link/sites/Looks/material_rgba/Shader  Type: Shader
+Prim: /h1/left_shoulder_pitch_link  Type: Xform
+Prim: /h1/left_shoulder_pitch_link/visuals  Type: 
+Prim: /h1/left_shoulder_roll_link  Type: Xform
+Prim: /h1/left_shoulder_roll_link/visuals  Type: 
+Prim: /h1/left_shoulder_yaw_link  Type: Xform
+Prim: /h1/left_shoulder_yaw_link/visuals  Type: 
+Prim: /h1/left_elbow_link  Type: Xform
+Prim: /h1/left_elbow_link/visuals  Type: 
+Prim: /h1/right_shoulder_pitch_link  Type: Xform
+Prim: /h1/right_shoulder_pitch_link/visuals  Type: 
+Prim: /h1/right_shoulder_roll_link  Type: Xform
+Prim: /h1/right_shoulder_roll_link/visuals  Type: 
+Prim: /h1/right_shoulder_yaw_link  Type: Xform
+Prim: /h1/right_shoulder_yaw_link/visuals  Type: 
+Prim: /h1/right_elbow_link  Type: Xform
+Prim: /h1/right_elbow_link/visuals  Type: 
+Prim: /h1/pelvis  Type: Xform
+Prim: /h1/pelvis/visuals  Type: 
+Prim: /h1/left_knee_link  Type: Xform
+Prim: /h1/left_knee_link/visuals  Type: 
+Prim: /GroundPlane  Type: Xform
+Prim: /GroundPlane/CollisionMesh  Type: Mesh
+  Mesh with 4 points
+Prim: /GroundPlane/CollisionPlane  Type: Plane
